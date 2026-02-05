@@ -389,7 +389,11 @@ footer{
     flex-direction: column;
     text-align: center;
   }
-
+  .dog__sec h3{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
   .dog__one img, .dog__two img{
     height: 250px;
   }
@@ -400,7 +404,10 @@ footer{
     height: auto;
     padding: 2rem 0;
   }
-
+  .form img{
+    height: 100%;
+    max-height: 300px;
+  }
   .form h3{
     font-size: 30px;
   }
