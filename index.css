@@ -66,7 +66,8 @@ span{
 .big p{
     font-size: 20px;
      padding:1rem 0;
-     width: 600px;
+     width: 100%;
+     max-width: 600px;
 }
 .big__btn{
     padding:0.8rem 1.2rem;
@@ -184,7 +185,7 @@ span{
 }
 .dog__one{
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(14, 49, 79);
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -212,7 +213,7 @@ span{
     display: flex;
     justify-content: center;
     
-    background-color: aliceblue;
+    background-color: rgb(21, 209, 165);
     padding: 3rem 3rem;
     border-radius: 10px;
 
@@ -478,7 +479,7 @@ footer{
   .footer__three{
     width: 100%;
   }
-}
-@media (min-width:1024) {
-    
+  input{
+    width: 50%;
+  }
 }
