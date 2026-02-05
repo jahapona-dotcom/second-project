@@ -9,6 +9,9 @@ header{
     align-items: center;
     background-color: antiquewhite;
     padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 .one a{ 
   padding: 0 10px;
@@ -233,7 +236,7 @@ padding:2rem 0;
     align-items: center;
     background-color: aqua;
     position: relative;
-    z-index: 999;
+    z-index: 998;
     border-radius: 10px;
 }
 .form__one{
@@ -316,7 +319,7 @@ footer{
  
 }
 
-/* ===== MOBILE-FIRST (320px–599px) ===== */
+
 @media (max-width: 599px) {
 
   header{
@@ -328,11 +331,11 @@ footer{
   .big{
     width: 95%;
     background-position: center;
-    background-size: 250px;
+    background-size: 350px;
     min-height: auto;
     padding-bottom: 10rem;
     background-position: bottom;
-    padding-bottom: 5rem;
+    
   }
 
   .big__content{
@@ -430,7 +433,7 @@ footer{
   }
 }
 
-/* ===== TABLET (600px–1023px) ===== */
+
 @media (min-width: 600px) and (max-width: 1023px){
 
   .big{
