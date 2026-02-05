@@ -330,6 +330,9 @@ footer{
     background-position: center;
     background-size: 250px;
     min-height: auto;
+    padding-bottom: 10rem;
+    background-position: bottom;
+    padding-bottom: 5rem;
   }
 
   .big__content{
@@ -352,7 +355,7 @@ footer{
   }
 
   .browse{
-    margin-top: -15rem;
+    margin-top: 0;
     width: 95%;
   }
 
