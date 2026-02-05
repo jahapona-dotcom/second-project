@@ -316,55 +316,8 @@ footer{
  
 }
 
-@media (min-width: 768px) and (max-width: 1250px){
-
-  .big{
-    width: 90%;
-  
-  }
-
-  .card{
-    grid-template-columns: repeat(3,1fr);
-  }
-
-  .body{
-    flex-direction: column;
-  }
-
-  .sec__one,
-  .sec__two{
-    width: 100%;
-  }
-
-  .sec__two{
-    grid-template-columns: repeat(2,1fr);
-  }
-.browse{
-    margin-top: -10rem;
-  }
-  .body__dog{
-    flex-direction: column;
-  }
-
-  .dog__one,
-  .dog__two{
-    width: 100%;
-  }
-
-  .form{
-    flex-direction: column;
-    padding-bottom: 3rem;
-  }
-
-  .form__one,
-  .form__two{
-    width: 100%;
-    text-align: center;
-  }
-}
-
-
-@media (max-width: 767px) {
+/* ===== MOBILE-FIRST (320px–599px) ===== */
+@media (max-width: 599px) {
 
   header{
     flex-direction: column;
@@ -374,15 +327,16 @@ footer{
 
   .big{
     width: 95%;
-    background-position: center ;
-   
- 
+    background-position: center;
+    background-size: 250px;
+    min-height: auto;
   }
 
   .big__content{
     position: static;
     text-align: center;
   }
+
   .big h2{
     font-size: 30px;
   }
@@ -393,93 +347,127 @@ footer{
     padding-bottom: 2rem;
   }
 
-
   .card{
     grid-template-columns: repeat(2,1fr);
   }
+
   .browse{
     margin-top: -15rem;
+    width: 95%;
   }
+
   .browse h2{
     padding-top: 2rem;
     text-align: center;
   }
-  
-  .body{
+
+  .body, .body__dog{
     flex-direction: column;
     width: 95%;
   }
- .content{
-    text-align: center;
- }
-  .sec__one,
-  .sec__two{
+
+  .sec__one, .sec__two{
     width: 100%;
   }
 
   .sec__two{
     grid-template-columns: repeat(2,1fr);
-   
   }
+
   .two__one{
-    padding:2rem 0;
+    padding: 2rem 0;
   }
 
-
-  .body__dog{
-    flex-direction: column;
-    width: 95%;
-  }
-
-  .dog__one,
-  .dog__two{
+  .dog__one, .dog__two{
     width: 100%;
     flex-direction: column;
     text-align: center;
   }
-  .dog__two h3{
-    padding-bottom: 2rem;
-  }
-  .dog__one img,.dog__two img{
+
+  .dog__one img, .dog__two img{
     height: 250px;
   }
 
- 
   .form{
     flex-direction: column;
     text-align: center;
     height: auto;
-    padding:2rem 0;
+    padding: 2rem 0;
   }
+
   .form h3{
     font-size: 30px;
   }
+
   .form p{
     font-size: 18px;
   }
-  .form__one,
-  .form__two{
+
+  .form__one, .form__two{
     width: 100%;
   }
-
 
   .main__footer{
     flex-direction: column;
     gap: 30px;
     text-align: center;
   }
-  .one__logo {
-    display: flex;
+
+  .one__logo{
     justify-content: center;
-    align-items: center;
-    text-align: right;
+    text-align: center;
   }
-  .footer__one,
-  .footer__two,
-  .footer__three{
+
+  .footer__one, .footer__two, .footer__three{
     width: 100%;
   }
+
   input{
     width: 50%;
+  }
+}
+
+/* ===== TABLET (600px–1023px) ===== */
+@media (min-width: 600px) and (max-width: 1023px){
+
+  .big{
+    width: 90%;
+    background-size: 350px;
+    background-position: center center;
+  }
+
+  .card{
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .body, .body__dog{
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .sec__one, .sec__two{
+    width: 100%;
+  }
+
+  .sec__two{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .browse{
+    margin-top: -10rem;
+  }
+
+  .dog__one, .dog__two{
+    width: 100%;
+  }
+
+  .form{
+    flex-direction: column;
+    padding-bottom: 3rem;
+  }
+
+  .form__one, .form__two{
+    width: 100%;
+    text-align: center;
   }
 }
