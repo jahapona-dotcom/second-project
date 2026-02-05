@@ -344,12 +344,12 @@ footer{
   }
 
   .big h2{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .big p{
     width: 100%;
-    font-size: 18px;
+    font-size: 15px;
     padding-bottom: 2rem;
   }
 
@@ -365,8 +365,19 @@ footer{
   .browse h2{
     padding-top: 2rem;
     text-align: center;
+    font-size: 25px;
   }
-
+  .trend .content h3{
+    font-size: 25px;
+    text-align: center;
+  }
+  .sec__one h3{
+    font-size: 20px;
+    
+  }
+  .sec__one p{
+    font-size: 16px;
+  }
   .body, .body__dog{
     flex-direction: column;
     width: 95%;
@@ -383,7 +394,12 @@ footer{
   .two__one{
     padding: 2rem 0;
   }
-
+  .dog__head h4{
+    font-size: 20px;
+  }
+  .dog__sec .content h3{
+    font-size: 25px;
+  }
   .dog__one, .dog__two{
     width: 100%;
     flex-direction: column;
@@ -397,7 +413,9 @@ footer{
   .dog__one img, .dog__two img{
     height: 250px;
   }
-
+ .two__two h4{
+    font-size: 20px;
+ }
   .form{
     flex-direction: column;
     text-align: center;
