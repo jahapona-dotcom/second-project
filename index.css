@@ -319,7 +319,7 @@ footer{
 
   .big{
     width: 90%;
-    background-size: 350px;
+  
   }
 
   .card{
@@ -338,7 +338,9 @@ footer{
   .sec__two{
     grid-template-columns: repeat(2,1fr);
   }
-
+.browse{
+    margin-top: -10rem;
+  }
   .body__dog{
     flex-direction: column;
   }
@@ -350,6 +352,7 @@ footer{
 
   .form{
     flex-direction: column;
+    padding-bottom: 3rem;
   }
 
   .form__one,
@@ -370,9 +373,9 @@ footer{
 
   .big{
     width: 95%;
-    background-position: center bottom;
-    background-size: 250px;
-    min-height: auto;
+    background-position: center ;
+   
+ 
   }
 
   .big__content{
@@ -392,6 +395,9 @@ footer{
   /* Browse */
   .card{
     grid-template-columns: repeat(2,1fr);
+  }
+  .browse{
+    margin-top: -15rem;
   }
   .browse h2{
     padding-top: 2rem;
