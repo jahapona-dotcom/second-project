@@ -188,10 +188,11 @@ span{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    width: 58%;
+   
 }
 .dog__head{
-    padding: 4rem ;
+    padding: 4rem 4rem;
+    
 }
 .dog__head p{
     padding: 1rem 0;
@@ -206,17 +207,15 @@ span{
 .dog__head h3{
     font-size: 40px;
 }
-.dog__one img{
-    height: 485px;
-}
+
 .dog__two{
     display: flex;
     justify-content: center;
     
     background-color: aliceblue;
-    padding: 3rem;
+    padding: 3rem 3rem;
     border-radius: 10px;
-    width: 38%;
+
 }
 .dog__two h4{
 font-size: 30px;
@@ -234,6 +233,7 @@ padding:2rem 0;
     background-color: aqua;
     position: relative;
     z-index: 999;
+    border-radius: 10px;
 }
 .form__one{
    width: 40%;
@@ -313,4 +313,166 @@ footer{
     gap: 10px;
     font-size: 20px;
  
+}
+
+@media (min-width: 768px) and (max-width: 1250px){
+
+  .big{
+    width: 90%;
+    background-size: 350px;
+  }
+
+  .card{
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .body{
+    flex-direction: column;
+  }
+
+  .sec__one,
+  .sec__two{
+    width: 100%;
+  }
+
+  .sec__two{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .body__dog{
+    flex-direction: column;
+  }
+
+  .dog__one,
+  .dog__two{
+    width: 100%;
+  }
+
+  .form{
+    flex-direction: column;
+  }
+
+  .form__one,
+  .form__two{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  header{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .big{
+    width: 95%;
+    background-position: center bottom;
+    background-size: 250px;
+    min-height: auto;
+  }
+
+  .big__content{
+    position: static;
+    text-align: center;
+  }
+  .big h2{
+    font-size: 30px;
+  }
+
+  .big p{
+    width: 100%;
+    font-size: 18px;
+    padding-bottom: 2rem;
+  }
+
+  /* Browse */
+  .card{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .browse h2{
+    padding-top: 2rem;
+    text-align: center;
+  }
+  /* Trend section */
+  .body{
+    flex-direction: column;
+    width: 95%;
+  }
+ .content{
+    text-align: center;
+ }
+  .sec__one,
+  .sec__two{
+    width: 100%;
+  }
+
+  .sec__two{
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+  .two__one{
+    padding:1rem 0;
+  }
+
+  /* Dog section */
+  .body__dog{
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .dog__one,
+  .dog__two{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .dog__two h3{
+    padding-bottom: 2rem;
+  }
+  .dog__one img,.dog__two img{
+    height: 250px;
+  }
+
+  /* Form */
+  .form{
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding:2rem 0;
+  }
+  .form h3{
+    font-size: 30px;
+  }
+  .form p{
+    font-size: 18px;
+  }
+  .form__one,
+  .form__two{
+    width: 100%;
+  }
+
+  /* Footer */
+  .main__footer{
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .one__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+  }
+  .footer__one,
+  .footer__two,
+  .footer__three{
+    width: 100%;
+  }
+}
+@media (min-width:1024) {
+    
 }
