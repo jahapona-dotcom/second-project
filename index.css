@@ -392,7 +392,7 @@ footer{
     padding-bottom: 2rem;
   }
 
-  /* Browse */
+
   .card{
     grid-template-columns: repeat(2,1fr);
   }
@@ -403,7 +403,7 @@ footer{
     padding-top: 2rem;
     text-align: center;
   }
-  /* Trend section */
+  
   .body{
     flex-direction: column;
     width: 95%;
@@ -424,7 +424,7 @@ footer{
     padding:2rem 0;
   }
 
-  /* Dog section */
+
   .body__dog{
     flex-direction: column;
     width: 95%;
@@ -443,7 +443,7 @@ footer{
     height: 250px;
   }
 
-  /* Form */
+ 
   .form{
     flex-direction: column;
     text-align: center;
@@ -461,7 +461,7 @@ footer{
     width: 100%;
   }
 
-  /* Footer */
+
   .main__footer{
     flex-direction: column;
     gap: 30px;
